@@ -1,7 +1,3 @@
-require 'pry'
-
-dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-
 def string_checker(words_array, dictionary)
   subhash = {}
   for i in 0...words_array.length()
@@ -23,5 +19,6 @@ def sub_strings(words, dictionary)
   string_checker(words_array, dictionary)
 end
 
+dictionary = ['i', 'me', 'o', 'i']
 
-sub_strings("Howdy partner, sit down! How's it going?", dictionary)
+sub_strings("Hi, my name is Joseph! Nice to meet you!", dictionary)

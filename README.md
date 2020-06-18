@@ -1,1 +1,1 @@
-# sub_strings_ruby
+Enter a word or a phrase of words (string) along with a dictionary (array) of appropriate substrings and find out how many times each substring occurs in the word or phrase!
